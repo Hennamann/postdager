@@ -30,4 +30,11 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: build ics file
         run: node index.js
+        
+      - name: Commit ics file
+        run: |
+          git config --global user.name 'Hennamann'
+          git config --global user.email 'ole@henrikstabell.com'
+          git commit -am "Update ICS"
+          git push
   
