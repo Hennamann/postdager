@@ -7,7 +7,6 @@
   "scripts": {
     "start": "node index.js"
   },
-  
   "author": "Ole Henrik Stabell",
   "license": "MIT",
   "dependencies": {
