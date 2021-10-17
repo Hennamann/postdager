@@ -38,5 +38,5 @@ request(options, (err, res, body) => {
         });
     }
 
-    cal.saveSync('./pages/postdager.ics');
+    cal.saveSync('./docs/postdager.ics');
 });
