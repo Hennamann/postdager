@@ -38,8 +38,5 @@ request(options, (err, res, body) => {
         });
     }
 
-    http.createServer((req, res) => cal.serve(res))
-        .listen(3000, 'localhost', () => {
-            console.log('Server running at http://localhost:3000');
-        });
+    cal.saveSync('./postdager.ics');
 });
