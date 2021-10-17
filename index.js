@@ -39,7 +39,7 @@ request(options, (err, res, body) => {
     }
 
     http.createServer((req, res) => cal.serve(res))
-        .listen(80, '127.0.0.1', () => {
-            console.log('Server running at http://127.0.0.1:80');
+        .listen(3000, 'localhost', () => {
+            console.log('Server running at http://localhost:3000');
         });
 });
