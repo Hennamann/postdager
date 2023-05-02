@@ -6,7 +6,7 @@ import request from 'request';
 const currentYear = new Date().getFullYear()
 
 const options = {
-    url: 'https://www.posten.no/levering-av-post/_/component/main/1/leftRegion/11?postCode=4007',
+    url: 'https://www.posten.no/kundeservice/sendinger-i-norge/sporsmal-om-levering-av-post/_/service/no.posten.website/delivery-days?postalCode=4007',
     headers: {
         'x-requested-with': 'XMLHttpRequest'
     }
