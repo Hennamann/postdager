@@ -25,8 +25,8 @@ request(options, (err, res, body) => {
         generator: getVtimezoneComponent
     });
 
-    for (var i = 0; i < deliveryDays['nextDeliveryDays'].length; i++) {
-        var obj = deliveryDays['nextDeliveryDays'][i];
+    for (var i = 0; i < deliveryDays['delivery_dates'].length; i++) {
+        var obj = deliveryDays['delivery_dates'][i];
 
         cal.createEvent({
             timezone: "Europe/Oslo",
